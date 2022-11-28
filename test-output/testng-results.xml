@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-06T17:55:15 GMT+02:00" name="Default suite" finished-at="2022-11-06T17:55:24 GMT+02:00" duration-ms="9345">
+    <groups>
+      <group name="addItem">
+        <method signature="SwagLabLoginClass.add_all_items()[pri:0, instance:swaglabclasses.SwagLabLoginClass@6eda5c9]" name="add_all_items" class="swaglabclasses.SwagLabLoginClass"/>
+      </group> <!-- addItem -->
+    </groups>
+    <test started-at="2022-11-06T17:55:15 GMT+02:00" name="Default test" finished-at="2022-11-06T17:55:24 GMT+02:00" duration-ms="9345">
+      <class name="swaglabclasses.SwagLabLoginClass">
+        <test-method is-config="true" signature="setup_and_Login()[pri:0, instance:swaglabclasses.SwagLabLoginClass@6eda5c9]" started-at="2022-11-06T17:55:15 GMT+02:00" name="setup_and_Login" finished-at="2022-11-06T17:55:18 GMT+02:00" duration-ms="2756" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup_and_Login -->
+        <test-method signature="add_all_items()[pri:0, instance:swaglabclasses.SwagLabLoginClass@6eda5c9]" started-at="2022-11-06T17:55:18 GMT+02:00" name="add_all_items" finished-at="2022-11-06T17:55:21 GMT+02:00" duration-ms="3340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add_all_items -->
+        <test-method signature="reset_application_state()[pri:0, instance:swaglabclasses.SwagLabLoginClass@6eda5c9]" started-at="2022-11-06T17:55:21 GMT+02:00" name="reset_application_state" finished-at="2022-11-06T17:55:24 GMT+02:00" duration-ms="3204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reset_application_state -->
+      </class> <!-- swaglabclasses.SwagLabLoginClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
